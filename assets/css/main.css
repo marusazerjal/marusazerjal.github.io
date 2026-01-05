@@ -3318,3 +3318,17 @@ input, select, textarea {
 			}
 
 	}
+
+
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.1rem;
+}
+
+.photo-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
